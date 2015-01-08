@@ -1,13 +1,12 @@
 .header-wrapper {
   background: #3AAED8;
-  position: absolute;
+  position: relative;
   margin: 0;
-  display: block;
+  display: inline-block;
   width: 100%
 }
 
 .header {
-  display: block;
   position: relative;
   font-family: 'Ubuntu', sans-serif;
   margin-left: 5%;
@@ -19,6 +18,7 @@
 }
 
 .header h1 {
+  position: relative;
   font-weight: 200;
   font-size: 3.4em;
 }
@@ -28,7 +28,8 @@
   line-height: 1.3em;
   font-size: 1.75em;
   margin-top: 0;
-  margin-bottom: 1.5em
+  margin-bottom: 1.5em;
+  clear: left;
 }
 
 .header p {
@@ -39,3 +40,8 @@ a.button {
   display: inline-block;
   text-decoration: none;
 }
+
+.teletype-prefix {
+  color: #474646;
+}
+

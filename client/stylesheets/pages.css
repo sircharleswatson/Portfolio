@@ -1,0 +1,71 @@
+/**
+* Home
+*/
+
+.home p {
+  margin-bottom: 1.5em;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.6em;
+}
+
+.home p a {
+  color: #3AAED8;
+}
+
+.about {
+  position: relative;
+  width: 60%;
+  float: left;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.about p {
+  margin-bottom: 1.5em;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.6em;
+}
+
+.short-profile {
+  position: relative;
+  width: 30%;
+  float: right;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.short-profile img {
+  max-width: 65%;
+  max-height: 65%;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+.short-profile .button {
+  background: #3AAED8;
+  -webkit-transition: background-color 100ms ease-in;
+  -moz-transition: background-color 100ms ease-in;
+  -o-transition: background-color 100ms ease-in;
+  -ms-transition: background-color 100ms ease-in;
+  transition: background-color 100ms ease-in;
+}
+
+.short-profile .button:hover {
+  background: #42C5F4;
+  -webkit-transition: background 100ms ease-in;
+  -moz-transition: background 100ms ease-in;
+  -o-transition: background 100ms ease-in;
+  -ms-transition: background 100ms ease-in;
+  transition: background-color 100ms ease-in;
+}
+
+
+
+
+
+
+
+
+

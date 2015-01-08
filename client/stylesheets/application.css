@@ -5,6 +5,8 @@
 body {
   height: 100vh;
   width: 100vw;
+  color: #474646;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .button {
@@ -19,4 +21,10 @@ body {
 
 a:focus{
     outline:0; /*removes the dotted border*/
+}
+
+#main {
+  margin-top: 3em;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
