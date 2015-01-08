@@ -1,0 +1,41 @@
+.header-wrapper {
+  background: #3AAED8;
+  position: absolute;
+  margin: 0;
+  display: block;
+  width: 100%
+}
+
+.header {
+  display: block;
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+}
+
+.header h1 {
+  font-weight: 200;
+  font-size: 3.4em;
+}
+
+.header h2 {
+  display: inline-block;
+  line-height: 1.3em;
+  font-size: 1.75em;
+  margin-top: 0;
+  margin-bottom: 1.5em
+}
+
+.header p {
+  margin-bottom: 1.25em;
+}
+
+a.button {
+  display: inline-block;
+  text-decoration: none;
+}
