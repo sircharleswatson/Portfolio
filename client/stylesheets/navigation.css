@@ -8,6 +8,11 @@
   overflow: auto;
 }
 
+#navigation nav {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 #navigation ul {
   float: right;
   margin-right: 60px;

@@ -3,7 +3,6 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
 
 body {
-  height: 100vh;
   width: 100vw;
   color: #474646;
   font-family: 'Ubuntu', sans-serif;
@@ -24,7 +23,10 @@ a:focus{
 }
 
 #main {
+  overflow: auto;
   margin-top: 3em;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding: 0 5%;
 }

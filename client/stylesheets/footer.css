@@ -1,0 +1,55 @@
+#footer-wrapper {
+  background: #fafafa;
+  margin-top: 3em;
+  overflow: hidden;
+}
+
+footer {
+  max-width: 1200px;
+  margin: 5em auto 4em auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 6em;
+  padding-left: 0;
+}
+
+/*footer ul:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}*/
+
+footer ul li {
+  display: inline-block;
+  width: 33%;
+}
+
+#github {
+  max-width: 120px;
+}
+
+footer a.button {
+  margin-bottom: 1.25em;
+  background: #3AAED8;
+  -webkit-transition: background-color 100ms ease-in;
+  -moz-transition: background-color 100ms ease-in;
+  -o-transition: background-color 100ms ease-in;
+  -ms-transition: background-color 100ms ease-in;
+  transition: background-color 100ms ease-in;
+}
+
+footer a.button:hover {
+  background: #42C5F4;
+  -webkit-transition: background 100ms ease-in;
+  -moz-transition: background 100ms ease-in;
+  -o-transition: background 100ms ease-in;
+  -ms-transition: background 100ms ease-in;
+  transition: background-color 100ms ease-in;
+}

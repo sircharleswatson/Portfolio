@@ -2,6 +2,11 @@
 * Home
 */
 
+.home {
+  display: inline-block;
+  position: relative;
+}
+
 .home p {
   margin-bottom: 1.5em;
   font-size: 1em;
@@ -17,7 +22,6 @@
   position: relative;
   width: 60%;
   float: left;
-  padding-left: 2.5%;
   padding-right: 2.5%;
 }
 
@@ -33,7 +37,6 @@
   width: 30%;
   float: right;
   padding-left: 2.5%;
-  padding-right: 2.5%;
 }
 
 .short-profile img {
